@@ -1,0 +1,12 @@
+:root {
+    --text-dark-mode-color: #ffffff;
+    --red: #E25858;
+    --white-mode-background-color: #f6f8ff;
+    --container-white-mode-background-color: #fefefe;
+    --regular-weight-white-mode-color: #4B6A9B;
+    --bold-weight-white-mode-color: #2B3442;
+    --color-button-serach: #0079ff;
+    --color-button-serach-hover: #60ABFF;
+    --dark-mode-background-color: #141D2F;
+    --container-dark-mode-background-color: #1E2A47;
+}

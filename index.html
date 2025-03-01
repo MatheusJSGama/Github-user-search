@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/variables.css">
+    <link rel="stylesheet" href="./src/styles/mediaqueries.css">
+</head>
+
+<body>
+    <section class="page dark">
+        <div class="container">
+            <div class="theme">
+                <div class="white-mode dark">
+                    <p class="dark">DARK MODE</p>
+                    <i class="fa-solid fa-moon moon"></i>
+                </div>
+                <div class="dark-mode dark">
+                    <p class="light dark">LIGHT MODE</p>
+                    <i class="fa-solid fa-sun sun"></i>
+                </div>
+            </div>
+            <div class="search-container dark">
+                <div class="search ">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search-box dark" spellcheck="false"
+                        placeholder="Buscar usuário do GitHub">
+                    <button class="btn">Pesquisar</button>
+                </div>
+                <div class="error">
+                    <p class="error-message"></p>
+                </div>
+            </div>
+            <main class="user-response-container dark">
+                <img src="" class="profile-picture" alt="Foto de perfil do usuário">
+                <div class="profile-info">
+                    <H1 class="name dark"></H1>
+                    <h3 class="username"></h3>
+                    <p class="joined dark"></p>
+                </div>
+                <p class="user-bio dark"></p>
+                <div class="user-data dark">
+                    <p class="repos data-name">Repos <span class="repos-number dark"></span></p>
+                    <p class="followers data-name">Followers <span class="followers-number dark"></span></p>
+                    <p class="following data-name">Following <span class="following-number dark"></span></p>
+                </div>
+                <div class="user-social dark">
+                    <div class="location-container dark">
+                        <i class="fa-solid fa-location-dot icon"></i>
+                        <p class="location social-data"></p>
+                    </div>
+                    <div class="email-container dark">
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <p class=" email social-data"></p>
+                    </div>
+                    <div class="website-container dark">
+                        <i class="fa-solid fa-link icon"></i>
+                        <a href="" target="_blank" class="website social-data"></a>
+                    </div>
+                    <div class="company-container dark">
+                        <i class="fa-solid fa-building icon"></i>
+                        <p class="company social-data"></p>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </section>
+    <script type="module" src="src/scripts/index.js"></script>
+</body>
+
+</html>
