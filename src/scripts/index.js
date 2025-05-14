@@ -26,7 +26,6 @@ searchBox.addEventListener("keyup", (e) => {
 
 async function userData(userName) {
     const userData = await getUser(userName)
-    console.log(userData);
 
     userNotFound(userData)
     errorToData(userData)
